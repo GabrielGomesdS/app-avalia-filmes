@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+}
+
+p {
+    text-align: center;
+    color: #666666;
+}
+
+input[type="text"] {
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+}
+
+button {
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555555;
+}
+
+#result {
+    margin-top: 50px; /* Adiciona margem superior para posicionar abaixo do quadrado */
+    padding: 20px;
+    font-weight: bold;
+    background-color: #ffffff;
+    color: #333333;
+}
